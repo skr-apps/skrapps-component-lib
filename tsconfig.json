@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "baseUrl": ".",
+    // "paths": {
+    //   "component-lib-react1": ["component-library-react/src/components.ts"],
+    //   "component-lib-react": ["dist/custom-elements/index"],
+    //   "component-lib/loader": ["loader"]
+    // },
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es2017",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "react",
+    "jsxFactory": "h"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
